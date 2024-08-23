@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Press";
+  src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(209, 209, 209);
+}
+
+header {
+  font-family: "Press";
+  background-image: url("../images/praveen-thirumurugan-KPAQpJYzH0Y-unsplash.jpg");
+  padding: 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-column: 1fr;
+  gap: 20%;
+  color: rgb(209, 209, 209);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 40px;
+}
+
+#description {
+  margin-bottom: 20px;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+code {
+  text-decoration: underline;
+}
+
+
